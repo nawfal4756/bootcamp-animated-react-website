@@ -5,7 +5,7 @@ import ComputerTable from '../../images/Computer Table.png';
 import ManWorking from '../../images/Man Working(1).png';
 import whatWeDo from '../../images/whatWeDo.png';
 import useWebAnimation from '@wellyshen/use-web-animations';
-import Typewriter from 'typewriter-effect';
+import ReactTypingEffect from 'react-typing-effect';
 
 export const Home = () => {
 	const { ref } = useWebAnimation({
@@ -32,13 +32,7 @@ export const Home = () => {
 			<Grid container spacing={2}>
 				<Grid item xs={10} md={5}>
 					<Typography variant="h1">
-						<Typewriter
-							options={{
-								strings: [ 'Welcome to WebDev' ],
-								autoStart: true,
-								loop: true
-							}}
-						/>
+						<ReactTypingEffect text="Welcome to WebDev" eraseDelay={5000000000000} />
 					</Typography>
 					<Typography>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been

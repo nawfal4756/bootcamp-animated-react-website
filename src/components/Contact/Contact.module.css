@@ -1,3 +1,52 @@
+body {
+	background-color: white !important;
+}
+
 .container {
-    margin: 7% 3%;
+	margin: 5% 0;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../../images/contactUsImage.jpg");
+	color: white;
+	height: 40vh;
+	width: 100%;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading2 {
+	margin: 5% 25% !important;
+}
+
+.textfield {
+	margin: 5% 25% !important;
+	width: 50vh;
+}
+
+.textfield2 {
+	margin: 5% 25% !important;
+	width: 80vh;
+	height: 40vh;
+}
+
+.imgcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.img {
+	width: 65%;
+	align-self: center;
 }
